@@ -1,0 +1,15 @@
+name: "mobanbot"
+organisation: "moremoban"
+author: "C.W."
+contact: "wangc_2011@hotmail.com"
+company: "C.W."
+version: "0.0.1"
+current_version: "0.0.1"
+release: "0.0.0"
+copyright_year: 2019
+command_line_interface: "mobanbot"
+entry_point: "mobanbot.main:main"
+license: MIT
+dependencies: []
+description: "Update mobans for your organisation"
+lint_command: make install_test lint format git-diff-check
